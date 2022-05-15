@@ -3,6 +3,6 @@
 ```
 lex lexer.l
 yacc -d -v parser.y
-gcc -ll -w y.tab.c
+gcc -lfl -w y.tab.c
 ./a.out<input1.c
 ```
